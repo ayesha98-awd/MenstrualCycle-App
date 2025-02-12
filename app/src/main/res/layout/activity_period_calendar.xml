@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_pink">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/calendar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Period Calendar"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/pink_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- CalendarView -->
+    <CalendarView
+        android:id="@+id/period_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Add Period Button -->
+    <Button
+        android:id="@+id/add_period_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Period Date"
+        android:backgroundTint="@color/pink_light"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/footer_image"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/calender_period" />
+
+</LinearLayout>

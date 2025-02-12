@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_pink">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Your Dashboard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/pink_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- "What is Menstrual Cycle?" Report Button -->
+    <Button
+        android:id="@+id/what_is_menstrual_cycle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Menstrual Cycle?"
+        android:backgroundTint="@color/pink_light"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Period Calendar Button -->
+    <Button
+        android:id="@+id/period_calendar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Period Calendar"
+        android:backgroundTint="@color/pink_light"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Symptoms & Mood Tracker Button -->
+    <Button
+        android:id="@+id/symptoms_mood_tracker_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Symptoms &amp; Mood Tracker"
+        android:backgroundTint="@color/pink_light"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Reminders & Notifications Button -->
+    <Button
+        android:id="@+id/reminders_notifications_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reminders &amp; Notifications"
+        android:backgroundTint="@color/pink_light"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Insights & Reports Button -->
+    <Button
+        android:id="@+id/insights_reports_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insights &amp; Reports"
+        android:backgroundTint="@color/pink_light"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/footer_image"
+        android:layout_width="wrap_content"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/welcome_dash"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>
