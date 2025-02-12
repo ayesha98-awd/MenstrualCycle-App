@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="pink_light">#FF4081</color>
+    <color name="pink_dark">#C2185B</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Define custom colors -->
+    <color name="light_pink">#FFB6C1</color>
+</resources>
